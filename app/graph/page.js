@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link"
 
 import { useEffect, useState } from 'react';
 
@@ -76,7 +77,7 @@ export default function Graph() {
   return (
     <div className='wrapper'>
       <div className='topper'> 
-        <h2 className='siteLogo neonText'>두더지토토.com</h2>
+        <Link href="/" className='siteLogo neonText'>두더지토토.com</Link>
         <h2 className='myMoney'>돈: {parseFloat(money).toFixed(0)} 원</h2>
       </div>
 

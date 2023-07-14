@@ -26,6 +26,8 @@ html {
 
 .siteLogo {
   margin-left: 10px;
+  font-size: 60px;
+  text-decoration: none;
 }
 
 .myMoney {
@@ -146,4 +148,22 @@ html {
   justify-content: center;
   flex-direction: column;
   width: 100%;
+}
+
+.iconMenu {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin: 20px;
+}
+
+.icon {
+  background-color: #494949;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  text-decoration: none;
 }
